@@ -1,4 +1,3 @@
-
 # Simple Math App
 
 Simple Math App is a React Native application built with Expo for children aged 5-8 to practice simple math (+ and -). The app includes a progression system where parents can set goals and prizes for their children.
@@ -9,13 +8,6 @@ Simple Math App is a React Native application built with Expo for children aged 
 - Goal setting and prize management by parents
 - Progress tracking with a progress bar
 - Image support for prizes
-
-## Screenshots
-
-![Home Screen](screenshots/home.png)
-![Set Goal Screen](screenshots/set_goal.png)
-![Progression Screen](screenshots/progression.png)
-![Goals Screen](screenshots/goals.png)
 
 ## Installation
 
