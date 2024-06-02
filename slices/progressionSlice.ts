@@ -5,14 +5,14 @@ interface ProgressionState {
   goal: number;
   progress: number;
   prize: string;
-  image: string | null; // Add image field
+  image: string | null;
 }
 
 const initialState: ProgressionState = {
   goal: 10,
   progress: 0,
   prize: "",
-  image: null, // Initialize image field
+  image: null,
 };
 
 const progressionSlice = createSlice({

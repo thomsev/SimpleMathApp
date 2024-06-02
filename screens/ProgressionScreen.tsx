@@ -10,10 +10,10 @@ export default function ProgressionScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Progression</Text>
-      <Text style={styles.text}>Current Goal: {goal}</Text>
-      <Text style={styles.text}>Current Progress: {progress}</Text>
-      <Text style={styles.text}>Prize: {prize}</Text>
+      <Text style={styles.title}>Fremgang</Text>
+      <Text style={styles.text}>Ditt mål:{goal}</Text>
+      <Text style={styles.text}>Din fremgang: {progress}</Text>
+      <Text style={styles.text}>Belønning: {prize}</Text>
     </View>
   );
 }

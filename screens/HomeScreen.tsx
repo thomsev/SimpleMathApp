@@ -13,7 +13,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Simple Math App</Text>
+      <Text style={styles.title}>Matte mester</Text>
       <MathQuestion onCorrectAnswer={handleAnswerCorrect} />
     </View>
   );
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
-    paddingBottom: 60, // Add padding to ensure the progress bar doesn't overlap with the content
+    paddingBottom: 60,
     backgroundColor: "#f5f5f5",
   },
   title: {

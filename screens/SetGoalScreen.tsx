@@ -13,7 +13,7 @@ export default function SetGoalScreen() {
   const handleSetGoal = () => {
     dispatch(setGoal(Number(newGoal)));
     dispatch(setPrize(newPrize));
-    dispatch(setImage(image)); // Save the image URI in the Redux store
+    dispatch(setImage(image));
   };
 
   const pickImage = async () => {
@@ -37,7 +37,7 @@ export default function SetGoalScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Set a New Goal</Text>
+      <Text style={styles.title}>Nytt mål</Text>
       <TextInput
         style={styles.input}
         placeholder="Enter new goal"
